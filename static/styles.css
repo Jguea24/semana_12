@@ -1,0 +1,123 @@
+/* Reset y fuentes */
+/* Header y navegación */
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav a {
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Botones */
+.btn,
+button {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover,
+button:hover {
+    background: #45a049;
+}
+
+
+/* Formularios */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.3s;
+}
+
+form input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+
+/* Contenido principal */
+main {
+    padding: 10px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+
+/* Flashes (mensajes) */
+.flashes {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.flash {
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.flash.danger {
+    background: #ffcdd2;
+    color: #b71c1c;
+}
+
+.flash.success {
+    background: #c8e6c9;
+    color: #1b5e20;
+}
+
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+}

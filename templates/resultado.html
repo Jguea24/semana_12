@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}Resultado{% endblock %}
+{% block content %}
+<h2>Registro guardado</h2>
+<p>Id: {{ usuario.id }}</p>
+<p>Nombre: {{ usuario.nombre }}</p>
+<p>Email: {{ usuario.email }}</p>
+<p>Fecha: {{ usuario.fecha }}</p>
+<a href="{{ url_for('index') }}">Volver</a>
+{% endblock %}

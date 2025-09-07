@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block title %}Inicio - Mi Proyecto Flask{% endblock %}
+{% block content %}
+<h2>Bienvenido</h2>
+<p>Usa el formulario para enviar datos y ver cómo se guardan en TXT, JSON, CSV y SQLite.</p>
+<a class="btn" href="{{ url_for('formulario') }}">Ir al formulario</a>
+{% endblock %}

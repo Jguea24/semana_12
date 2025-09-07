@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}Formulario{% endblock %}
+{% block content %}
+<h2>Formulario de prueba</h2>
+<form method="post" action="{{ url_for('formulario') }}">
+    <label for="nombre">Nombre</label>
+    <input id="nombre" name="nombre" required>
+
+
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" required>
+
+
+    <button type="submit">Enviar</button>
+</form>
+{% endblock %}
